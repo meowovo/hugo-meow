@@ -51,7 +51,6 @@ uglyURLs = false
 
 # 类别
 [taxonomies]
-    tag = "tags"
 
 # 修改时间
 [frontmatter]
@@ -734,9 +733,9 @@ uglyURLs = false
     readingTimeIcon = "clock"
 
     # 是否显示不蒜子页面浏览量
-    displayBusuanziPagePV = false
+    displayBusuanziPagePV = true
     # 不蒜子页面浏览量的图标
-    busuanziPagePVIcon = "eye"
+    busuanziPagePVIcon = "heart"
     # 说明：仅在生产环境（production）下渲染
     #      首页暂不支持
     #      https://busuanzi.ibruce.info/

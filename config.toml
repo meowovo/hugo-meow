@@ -195,22 +195,16 @@ uglyURLs = false
         pre = "internal"
         post = "th"
     [[menu.main]]
-        url = "/tags/"
-        name = "标签"
-        weight = 4
-        pre = "internal"
-        post = "tags"
-    [[menu.main]]
         url = "/about/"
         name = "关于"
-        weight = 5
+        weight = 4
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        weight = 6
+        weight = 5
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 7
+        weight = 6
         identifier = "lang-switcher"
     # [[menu.main]]
     #     weight = 8
@@ -296,7 +290,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["吃了睡 醒了吃"]
+    homePoetry = ["生而为人 确实蛮爽","![svg](https://wakatime.com/share/@bf380b6d-ecad-4dfb-939d-835a5d2fe310/abafe345-8bdc-4ded-87dd-af4c187f6e61.svg)"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 

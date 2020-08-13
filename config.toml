@@ -530,7 +530,7 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableServiceWorker = false
+    enableServiceWorker = true
 
 
     ######################################
@@ -572,7 +572,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启（全局设置）
-    enableComments = false
+    enableComments = true
     # 说明：文章的 Front Matter 中的 `comments`
     #      的优先级高于此处
 
@@ -581,24 +581,24 @@ uglyURLs = false
     disqusShortname = ""
 
     ## Valine
-    enableValine = false
-    valineAppId = ""
-    valineAppKey = ""
-    valinePlaceholder = "Just go go"
+    enableValine = true
+    valineAppId = "6VuNdjHf7tz03VgjFGMTo5LS-gzGzoHsz"
+    valineAppKey = "dAN71744JXDYhNeFLVzQoxzK"
+    valinePlaceholder = "评论一下!"
     valinePath = ""
-    valineAvatar = "mm"
+    valineAvatar = "retro"
     valineMeta = ["nick", "mail", "link"]
     valinePageSize = 10
     valineLang = "zh-cn"
-    valineVisitor = false
+    valineVisitor = true
     valineHighlight = true
     valineAvatarForce = false
-    valineRecordIP = false
+    valineRecordIP = true
     valineServerURLs = ""
     valineEmojiCDN = ""
     valineEmojiMaps = {}
-    valineEnableQQ = false
-    valineRequiredFields = []
+    valineEnableQQ = true
+    valineRequiredFields = ["nick"]
     # 说明：https://valine.js.org/
 
     ## Utterances
@@ -616,7 +616,7 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableGoogleAnalytics = false
+    enableGoogleAnalytics = true
 
     # 跟踪代码的类型
     trackingCodeType = "gtag"
@@ -628,7 +628,7 @@ uglyURLs = false
     ######################################
     # Google Site Verification
 
-    googleSiteVerification = ""
+    googleSiteVerification = "k8-YapMH7FVVuI0Nf2jF0oXWPFJPJbEFEBqdT73DFI8"
 
 
     ######################################

@@ -46,7 +46,6 @@ uglyURLs = false
 
 # URL 结构
 [permalinks]
-    categories = "/categories/:slug/"
     tags = "/tags/:slug/"
 
 # 类别
@@ -188,23 +187,23 @@ uglyURLs = false
         weight = 2
         pre = "internal"
         post = "archive"
-    [[menu.main]]
-        url = "/categories/"
-        name = "分类"
-        weight = 3
-        pre = "internal"
-        post = "th"
+#    [[menu.main]]
+#        url = "/categories/"
+#        name = "分类"
+#        weight = 3
+#        pre = "internal"
+#        post = "th"
     [[menu.main]]
         url = "/about/"
         name = "关于"
-        weight = 4
+        weight = 3
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        weight = 5
+        weight = 4
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 6
+        weight = 5
         identifier = "lang-switcher"
     # [[menu.main]]
     #     weight = 8
@@ -290,7 +289,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["生而为人 确实蛮爽","![svg](https://wakatime.com/share/@bf380b6d-ecad-4dfb-939d-835a5d2fe310/abafe345-8bdc-4ded-87dd-af4c187f6e61.svg)"]
+    homePoetry = ["你是银河的雏形","我是黑矮星","![svg](https://wakatime.com/share/@bf380b6d-ecad-4dfb-939d-835a5d2fe310/abafe345-8bdc-4ded-87dd-af4c187f6e61.svg)"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -315,7 +314,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "Notes"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 

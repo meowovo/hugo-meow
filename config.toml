@@ -289,7 +289,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["你是银河的雏形","我是黑矮星","![svg](https://wakatime.com/share/@bf380b6d-ecad-4dfb-939d-835a5d2fe310/abafe345-8bdc-4ded-87dd-af4c187f6e61.svg)"]
+    homePoetry = ["你是银河的雏形","我是黑矮星"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 

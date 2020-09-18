@@ -187,23 +187,23 @@ uglyURLs = false
         weight = 2
         pre = "internal"
         post = "archive"
-#    [[menu.main]]
-#        url = "/categories/"
-#        name = "分类"
-#        weight = 3
-#        pre = "internal"
-#        post = "th"
+     [[menu.main]]
+         url = "/leetcode/"
+         name = "LeetCode"
+         weight = 3
+         pre = "internal"
+         post = "tags"
     [[menu.main]]
         url = "/about/"
         name = "关于"
-        weight = 3
+        weight = 4
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        weight = 4
+        weight = 5
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 5
+        weight = 6
         identifier = "lang-switcher"
     # [[menu.main]]
     #     weight = 8
@@ -437,7 +437,7 @@ uglyURLs = false
     # 说明：分区的名字即站点的 content 目录下
     #      的文件夹的名字。
 
-    mainSections = ["posts"]
+    mainSections = ["posts","leetcode"]
 
 
     ######################################
@@ -1123,8 +1123,8 @@ uglyURLs = false
     # 极简页脚
 
     # 是否开启
-    enableMinimalFooter = false
-    enableVerticalBarStructure = false
+    enableMinimalFooter = true
+    enableVerticalBarStructure = true
     # 说明：如果开启此项，显示在右边的部类或分区
     #      将会包含全部的第一级部类或分区，并且
     #      以竖线（|）分隔开来。
@@ -1175,13 +1175,13 @@ uglyURLs = false
     iconAnimation = true
 
     # 是否显示 Hugo 和 MemE 的链接
-    displayPoweredBy = true
+    displayPoweredBy = false
 
     # 是否显示站点的版权信息
     displaySiteCopyright = true
 
     # 自定义页脚（支持 Markdown）
-    customFooter = ""
+    customFooter = "京ICP备19044755号-1"
 
     displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "本站访客数"
